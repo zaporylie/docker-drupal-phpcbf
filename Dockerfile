@@ -1,5 +1,6 @@
-FROM local/drupalcs
-MAINTAINER Jakub Piasecki <jakub@nymedia.no>
+FROM zaporylie/drupal-phpcs
+
+MAINTAINER Jakub Piasecki <jakub@piaseccy.pl>
 
 ENV GIT_USER_NAME=phpcbf \
   GIT_USER_EMAIL=phpcbf@drupal.org
