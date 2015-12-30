@@ -1,9 +1,9 @@
-FROM zaporylie/drupal-phpcs:release-0.1
+FROM zaporylie/drupal-phpcs:release-0.3
 
 MAINTAINER Jakub Piasecki <jakub@piaseccy.pl>
 
-ENV GIT_USER_NAME=phpcbf \
-  GIT_USER_EMAIL=phpcbf@drupal.org
+ENV GIT_USERNAME=phpcbf \
+  GIT_USEREMAIL=phpcbf@drupal.org
 
 RUN curl -L -O https://github.com/github/hub/releases/download/v2.2.2/hub-linux-amd64-2.2.2.tgz && tar -xvzf hub-linux-amd64-2.2.2.tgz && ./hub-linux-amd64-2.2.2/install && hub version
 
