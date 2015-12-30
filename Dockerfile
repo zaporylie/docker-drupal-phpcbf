@@ -1,4 +1,4 @@
-FROM zaporylie/drupal-phpcs
+FROM zaporylie/drupal-phpcs:release-0.1
 
 MAINTAINER Jakub Piasecki <jakub@piaseccy.pl>
 
